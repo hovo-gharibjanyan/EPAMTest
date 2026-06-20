@@ -1,0 +1,17 @@
+{
+  "name": "saucedemo-inventory-wdio",
+  "version": "1.0.0",
+  "description": "Final task for Automated Testing in JS using WebDriverIO",
+  "type": "module",
+  "scripts": {
+    "test": "wdio run ./wdio.conf.js"
+  },
+  "devDependencies": {
+    "@wdio/cli": "latest",
+    "@wdio/globals": "latest",
+    "@wdio/local-runner": "latest",
+    "@wdio/mocha-framework": "latest",
+    "@wdio/spec-reporter": "latest",
+    "webdriverio": "latest"
+  }
+}
